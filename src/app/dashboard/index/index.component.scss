@@ -1,0 +1,25 @@
+ul.side-bar-link{
+    display: block;
+    list-style-type: none;
+
+    width: 100%;
+  li a{
+      color: #FFF;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+      text-transform: capitalize;
+
+      width: 100%;
+  }
+}
+
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2rem;
+  .box1{
+      border: 2px solid #ccc;
+      padding: 10px;
+  }
+}
